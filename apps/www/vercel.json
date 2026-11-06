@@ -18,6 +18,11 @@
       "statusCode": 301
     },
     {
+      "source": "/brand/kit/:file(rakazo-.*)",
+      "destination": "/brand/",
+      "statusCode": 301
+    },
+    {
       "source": "/x",
       "destination": "https://x.com/rakazobot",
       "permanent": false
